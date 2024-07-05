@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
        <LoginButton
-                botUsername='@Tet1234bot'
+                botUsername='Tet1234bot'
                 onAuthCallback={(data) => {
                     console.log(data);
                     // call your backend here to validate the data and sign in the user
